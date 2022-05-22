@@ -1,3 +1,4 @@
+import { Section } from 'components/Section';
 import React from 'react';
 import {
   useColorScheme,
@@ -15,7 +16,6 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import { Section } from './Section';
 
 export const AppTemplate = () => {
   const isDarkMode = useColorScheme() === 'dark';
